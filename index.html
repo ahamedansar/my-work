@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahamed Ansar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      
+      <a href="index.html" class="logo" style="text-decoration: none;">AAN</a>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <img src="WORKK.jpg" class="profile-pic" alt="Profile"> <br><br>
+      <h1>Hi, I'm Ahamed Ansar Nasim B H</h1>
+     <p><span class="typewriter" data-text='["MERN Stack Developer", "Tech Enthusiast", "React Specialist", "Node.js Enthusiast"]'></span></p>
+
+      <a href="Ansar_Resume.pdf" class="btn" download>Download Resume</a>
+
+    </div>
+  </section>
+<div class="ammm">
+  <section id="about" style="color: rgb(0, 0, 0);line-height: 1.7;">
+    <h2>About Me</h2>
+    <p>Hi, I'm Ahamed Ansar Nasim, a passionate MERN Stack Developer with a degree in BCA (Artificial Intelligence). I love building responsive, dynamic web applications that solve real-world problems. With a strong foundation in MongoDB, Express.js, React, and Node.js, I enjoy creating clean and scalable code.
+
+I’m constantly learning and pushing my limits to stay up to date with the latest technologies. Whether it's front-end UI/UX design or back-end logic, I aim to deliver seamless and efficient solutions.
+
+When I'm not coding, you'll find me exploring new tools, improving my skills, or contributing to open-source projects.</p>
+  </section> </div> <br><br>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="education-container">
+
+    <div class="edu-card">
+      <h3>Bachelor of Computer Applications (AI)</h3>
+      <p>Srinivas University</p>
+      <p>2022 – 2025</p>
+    </div>
+
+    <div class="edu-card">
+      <h3>Higher Secondary (12th Grade)</h3>
+      <p>GMVHSS</p>
+      <p>2020 – 2022</p>
+    </div>
+
+    <div class="edu-card">
+      <h3>High School (10th Grade)</h3>
+      <p>N.A MODEL HSS</p>
+      <p>2018 – 2020</p>
+    </div>
+
+  </div>
+</section> <br><br>
+
+
+
+  <section id="skills" class="sill">
+    <h2>Skills</h2>
+    <ul class="skills" type="none">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>MongoDB</li>
+      <li>Express.js</li>
+    </ul>
+  </section>
+
+
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">Portfolio Website</div>
+      <div class="project-card">MERN Blog App</div>
+      <div class="project-card">Chat App</div>
+    </div>
+  </section>
+
+
+
+  <section id="contact">
+    <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm" onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="formMsg"></p>
+  </form>
+</section>
+
+   
+  </section>
+
+  <footer>
+    
+   
+    <p>Email: ahamedansarnasim@gmail.com</p>
+    <p>Phone: +91 7012056376</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/">linkedin.com/in/</a></p>
+    <p>© 2025 Ahamed Ansar Nasim</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <a href="mailto:ahamedansarnasim@gmail.com" class="contact-float" title="Email Me">✉️</a>
+<button id="scrollTopBtn">⬆</button>
+</body>
+</html>
